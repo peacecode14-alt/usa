@@ -1,0 +1,74 @@
+.country-title {
+
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+
+}
+
+.back {
+
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.places {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px;
+
+}
+
+.place {
+
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+
+}
+
+.place img {
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: .4s;
+
+}
+
+.place:hover img {
+
+    transform: scale(1.1);
+
+}
+
+.place h3 {
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+.place p {
+
+    padding: 15px;
+    line-height: 1.6;
+
+}
+
+@media(max-width:700px) {
+
+    .places {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
