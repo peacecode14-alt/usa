@@ -1,3 +1,6 @@
+body {
+    background: #ff9658;
+}
 .country-title {
 
     text-align: center;
@@ -26,7 +29,7 @@
 
 .place {
 
-    background: white;
+    background: rgb(253, 188, 91);
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
