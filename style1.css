@@ -189,9 +189,26 @@ nav a:hover {
         flex-direction: column;
         padding: 15px 30px;
     }
+  
 
-    nav {
+   
+
+     nav {
+        display: flex;
+        justify-content: center;
         margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
     }
 
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+       
+         text-align: center;
+   
+    }
+   
 }
+
